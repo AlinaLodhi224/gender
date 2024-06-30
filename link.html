@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+      // Prompt the user to enter their gender
+var gender = prompt("Enter your gender (male/female):");
+
+// Convert the entered gender to lowercase for case insensitivity
+gender = gender.toLowerCase();
+
+// Check the gender and display the appropriate message
+if (gender === "male") {
+    document.write("Good Morning Sir.");
+} else if (gender === "female") {
+    document.write("Good Morning Ma’am.");
+} else {
+    document.write("Invalid input. Please enter either 'male' or 'female'.");
+}
+
+    </script>
+</body>
+
+</html>
